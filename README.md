@@ -1,5 +1,7 @@
 # Arduino MIDI Controller
 
+
+
 Plan:
 - [x] Code it
     - [x] Potentiometers
@@ -38,5 +40,6 @@ This is a switch example I used to make the button work as I needed:
 https://www.arduino.cc/en/Tutorial/Switch
 
 
+![Breadboard](ArduinoMIDIController_bb.png)
 
 
