@@ -3,7 +3,7 @@
 ## Description
 
 MIDI Controller, based on Arduino Uno, no third party libraries. 
-However, since Arduino Uno does not have native MIDI support, we use third party software, [Hariless MIDI](https://projectgus.github.io/hairless-midiserial/) to convert Serial to MIDI.[На русском](https://viktorgordienko.com/arduino-midi-controller)
+However, since Arduino Uno does not have native MIDI support, we use third party software, [Hariless MIDI](https://projectgus.github.io/hairless-midiserial/) to convert Serial to MIDI. [На русском](https://viktorgordienko.com/arduino-midi-controller)
 
 ## Scheme
 Two potentiometers, two buttons as MIDI notes, the green button - control bank switch.
