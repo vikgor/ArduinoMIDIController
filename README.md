@@ -9,20 +9,16 @@ However, since Arduino Uno does not have native MIDI support, we use third party
 Two potentiometers, two buttons as MIDI notes, the green button - control bank switch.
 
 ![Breadboard](ArduinoMIDIController_bb.png)
-
 Customize the code:
 ```
-//Potentiometers
 int numberOfPots = 2;     //Total number of potentiometers
-//Buttons
 int numberOfButtons = 2;  //Total number of buttons
 ```
 
 Serial to MIDI convertion:
 
 ![Hairless MIDI](hairless-midi.png)
-
-## Plan:
+## Plan
 - [x] Code it
     - [x] Potentiometers
     - [x] Buttons
