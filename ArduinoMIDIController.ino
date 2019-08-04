@@ -9,7 +9,7 @@ You can: copy it, modify it, share it, buy it, use it, break it, fix it, trash i
 */
 
 //Potentiometers
-int numberOfPots = 2;     //Total number of petentiometers
+int numberOfPots = 2;     //Total number of potentiometers
 int potValues[2];         //Array of current values
 int potLastValues[2];     //Array of last values (used to compare)
 
@@ -23,7 +23,7 @@ long debounce = 200;      // the debounce time, increase if the output flickers
 // the last 2 are long's because the time, measured in msec, will quickly become a bigger number than can be stored in an int.
 
 //Switch button
-int controlSwitch = 0;    //=64, used to add another set of controls
+int controlSwitch = 0;    //used to add another set of controls
 int switchState = LOW;
 int switchReading;
 int switchPrevious = HIGH;

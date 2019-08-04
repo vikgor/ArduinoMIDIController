@@ -1,5 +1,27 @@
 # Arduino MIDI Controller
 
+## Description
+
+MIDI Controller, based on Arduino Uno, no third party libraries. 
+However, since Arduino Uno does not have native MIDI support, we use third party software, **Hariless MIDI** to convert Serial to MIDI.
+
+## Scheme
+Two potentiometers, two buttons as MIDI notes, the green button - control bank switch.
+
+![Breadboard](ArduinoMIDIController_bb.png)
+
+Customize the code:
+```
+//Potentiometers
+int numberOfPots = 2;     //Total number of potentiometers
+//Buttons
+int numberOfButtons = 2;  //Total number of buttons
+```
+
+Serial to MIDI convertion:
+
+![Hairless MIDI](hairless-midi.png)
+
 ## Plan:
 - [x] Code it
     - [x] Potentiometers
@@ -20,10 +42,6 @@
     - [ ] Wiring and soldering
 - [x] circuit design w/ Fritzing
 - [ ] Tutorial
-
-## Scheme
-Two potentiometers, two buttons as MIDI notes, the green button - control bank switch.
-![Breadboard](ArduinoMIDIController_bb.png)
 
 ## Useful stuff
 
