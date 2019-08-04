@@ -1,8 +1,6 @@
 # Arduino MIDI Controller
 
-
-
-Plan:
+## Plan:
 - [x] Code it
     - [x] Potentiometers
     - [x] Buttons
@@ -23,23 +21,20 @@ Plan:
 - [x] circuit design w/ Fritzing
 - [ ] Tutorial
 
-
-First project that worked for me:
-https://www.instructables.com/id/Easy-3-Pot-Potentiometer-Arduino-Uno-Effects-Midi-/
-
-This one has buttons and fader, didn’t work for me yet:
-https://www.instructables.com/id/Arduino-MIDI-Controller/
-
-Made the CC work, had troubles with button, asked a question:
-https://forum.arduino.cc/index.php?topic=628697.0
-
-Got the hint at the forum: Pull Up Resistor: 
-https://www.baldengineer.com/arduino-internal-pull-up-resistor-tutorial.html
-
-This is a switch example I used to make the button work as I needed:
-https://www.arduino.cc/en/Tutorial/Switch
-
-
+## Scheme
+Two potentiometers, two buttons as MIDI notes, the green button - control bank switch.
 ![Breadboard](ArduinoMIDIController_bb.png)
 
+## Useful stuff
+
+- First project that worked for me:
+https://www.instructables.com/id/Easy-3-Pot-Potentiometer-Arduino-Uno-Effects-Midi-/
+- This one has buttons and fader, didn’t work for me yet:
+https://www.instructables.com/id/Arduino-MIDI-Controller/
+- Made the CC work, had troubles with buttons, asked a question:
+https://forum.arduino.cc/index.php?topic=628697.0
+- Got the hint at the forum: Pull Up Resistor: 
+https://www.baldengineer.com/arduino-internal-pull-up-resistor-tutorial.html
+- This is a switch example I used to make the button work as I needed:
+https://www.arduino.cc/en/Tutorial/Switch
 
