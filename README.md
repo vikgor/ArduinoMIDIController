@@ -1,7 +1,7 @@
 # Arduino MIDI Controller
 
 Plan:
-- [ ] Code it
+- [x] Code it
     - [x] Potentiometers
     - [x] Buttons
     - [x] Faders
@@ -12,14 +12,14 @@ Plan:
         - [x] for pots
         - [x] for buttons
     - [x] Add the LED for the switch
-    - [ ] Clean the code
+    - [x] Clean the code
 - [ ] Construct it
     - [ ] Design an enclosure
     - [ ] More buttons
     - [ ] More stuff
     - [ ] Wiring and soldering
-- [ ] Make a beautiful scheme with Circuit Designer Software (update it) (make it horizontal)
-- [ ] Write a tutorial
+- [x] circuit design w/ Fritzing
+- [ ] Tutorial
 
 
 First project that worked for me:

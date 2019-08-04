@@ -9,9 +9,9 @@ You can: copy it, modify it, share it, buy it, use it, break it, fix it, trash i
 */
 
 //Potentiometers
-int numberOfPots = 3;     //Total number of petentiometers
-int potValues[3];         //Array of current values
-int potLastValues[3];     //Array of last values (used to compare)
+int numberOfPots = 2;     //Total number of petentiometers
+int potValues[2];         //Array of current values
+int potLastValues[2];     //Array of last values (used to compare)
 
 //Buttons
 int numberOfButtons = 2;  //Total number of buttons EXCEPT the switch button
