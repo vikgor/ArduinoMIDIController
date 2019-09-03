@@ -31,13 +31,25 @@ Serial to MIDI convertion:
         - [x] for buttons
     - [x] Add the LED for the switch
     - [x] Clean the code
-- [ ] Construct it
-    - [ ] Design an enclosure
-    - [ ] More buttons
-    - [ ] More stuff
-    - [ ] Wiring and soldering
+- [x] Construct it
+    - [x] Design an enclosure
+    - [x] More buttons
+    - [x] More stuff
+    - [x] Wiring and soldering
 - [x] circuit design w/ Fritzing
-- [ ] Tutorial
+- [x] Tutorial
+
+Sep 02 2019 - Finished the demo project.
+
+## Update
+- [ ] White LED to indicate power on
+- [ ] Two green LEDs on each side to indicate the switch (one is on, one is off)
+    - [ ] Or! Code an option to add another switch to make all the buttons and pots have 3 modes instead of two
+- [ ] Replace Uno with Mega for more analog inputs (no multiplexers this time)
+- [ ] Add two buttons
+- [ ] Make the wires going to the board much longer
+- [ ] Connect the remaining pots
+- [ ] Reconnect faders (switch ground and power to reverse the fader)
 
 ## Useful stuff
 
